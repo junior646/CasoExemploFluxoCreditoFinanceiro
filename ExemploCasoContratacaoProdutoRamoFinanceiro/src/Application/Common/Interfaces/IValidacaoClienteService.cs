@@ -1,0 +1,11 @@
+﻿using ExemploCasoContratacaoProdutoRamoFinanceiro.Application.Communication.ValidacoesCliente.ConsultarBloqueiosCliente;
+using ExemploCasoContratacaoProdutoRamoFinanceiro.Application.Communication.ValidacoesCliente.ConsultarLiberacaoCreditoCliente;
+using ExemploCasoContratacaoProdutoRamoFinanceiro.Application.Communication.ValidacoesCliente.ConsultarServicosContratadosCliente;
+
+namespace ExemploCasoContratacaoProdutoRamoFinanceiro.Application.Common.Interfaces;
+public interface IValidacaoClienteService
+{
+    Task<ConsultarBloqueiosClienteResponse?> ConsultarBloqueiosCliente(ConsultarBloqueiosClienteRequest request, CancellationToken cancellationToken);
+    Task<ConsultarLiberacaoCreditoClienteResponse?> ConsultarLiberacaoCreditoCliente(ConsultarLiberacaoCreditoClienteRequest request, CancellationToken cancellationToken);
+    Task<ConsultarServicosContratadosClienteResponse?> ConsultarServicosContratadosCliente(ConsultarServicosContratadosClienteRequest request, CancellationToken cancellationToken);
+}

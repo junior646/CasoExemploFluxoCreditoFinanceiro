@@ -1,0 +1,4 @@
+﻿using ExemploCasoContratacaoProdutoRamoFinanceiro.Application.Communication.Calculos.Common;
+
+namespace ExemploCasoContratacaoProdutoRamoFinanceiro.Application.Communication.Calculos.ObterCalculoCreditoDireto;
+public class ObterCalculoCreditoDiretoRequest : ObterCalculoCreditoCommonRequest { }

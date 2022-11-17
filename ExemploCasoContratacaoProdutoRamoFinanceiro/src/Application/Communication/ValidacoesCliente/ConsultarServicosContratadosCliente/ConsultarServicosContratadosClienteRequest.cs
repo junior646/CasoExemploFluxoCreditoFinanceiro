@@ -1,0 +1,4 @@
+﻿using ExemploCasoContratacaoProdutoRamoFinanceiro.Application.Communication.ValidacoesCliente.Common;
+
+namespace ExemploCasoContratacaoProdutoRamoFinanceiro.Application.Communication.ValidacoesCliente.ConsultarServicosContratadosCliente;
+public class ConsultarServicosContratadosClienteRequest : ValidacaoClienteCommonRequest { }

@@ -1,0 +1,6 @@
+﻿global using ExemploCasoContratacaoProdutoRamoFinanceiro.Domain.Common;
+global using ExemploCasoContratacaoProdutoRamoFinanceiro.Domain.Entities;
+global using ExemploCasoContratacaoProdutoRamoFinanceiro.Domain.Enums;
+global using ExemploCasoContratacaoProdutoRamoFinanceiro.Domain.Events;
+global using ExemploCasoContratacaoProdutoRamoFinanceiro.Domain.Exceptions;
+global using ExemploCasoContratacaoProdutoRamoFinanceiro.Domain.ValueObjects;
